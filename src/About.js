@@ -25,13 +25,21 @@ export const About = () => {
   );
 };
 const Container = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  position: absolute;
-  left: 15%;
-  right: 15%;
-  top: 15%;
+
+  width: 80%;
+  height: 90%;
+  left: 10%;
+  /* justify-content: center;
+  align-items: center; */
+  top: 190px;
+
+  @media (max-width: 700px) {
+    top: 100px;
+    display: flex;
+  }
 `;
 
 const AboutMe = styled.h1`
