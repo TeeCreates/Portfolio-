@@ -37,7 +37,7 @@ body {
 	line-height: 1;
 	box-sizing: border-box;
     background-color:#E6E6FA;
-height: 100%;
+height: 100vh;
     width: 100vw; 
     right:-7px;
     border:#7847E3 7px solid ;
