@@ -31,14 +31,19 @@ const Container = styled.div`
   justify-content: center;
 
   width: 80%;
-  height: 100vh;
+  height: 100%;
   left: 10%;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+
   /* top: 190px; */
 
   @media (max-width: 700px) {
+    margin-top: 20px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    overflow: hidden;
   }
 `;
 
