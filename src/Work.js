@@ -1,12 +1,9 @@
 import styled from "styled-components";
-import project1 from "./assets/project1.png";
-import project2 from "./assets/project2.png";
 
 export const MyWork = () => {
   return (
     <Container>
       <ProjectWrapper>
-        {/* <Project1Img src={project1} /> */}
         <LinkDiv>
           <BigLink href="https://www.youtube.com/watch?v=JtogNM2BRdo&ab_channel=TM">
             Click to watch my final project
