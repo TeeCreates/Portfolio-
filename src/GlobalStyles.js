@@ -42,7 +42,8 @@ height: 100vh;
     right:-7px;
     border:#7847E3 7px solid ;
     padding: 0px;
-	overflow: hidden;
+
+	overflow: auto;
 
 	
 

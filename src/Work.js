@@ -6,21 +6,24 @@ export const MyWork = () => {
   return (
     <Container>
       <ProjectWrapper>
-        <Project1Img src={project1} alt="" />
+        {/* <Project1Img src={project1} /> */}
         <LinkDiv>
-          <LinkStyle href="https://www.youtube.com/watch?v=JtogNM2BRdo&ab_channel=TM">
+          <BigLink href="https://www.youtube.com/watch?v=JtogNM2BRdo&ab_channel=TM">
             Click to watch my final project
-          </LinkStyle>
+          </BigLink>
+          <SmallLink href="https://www.youtube.com/watch?v=JtogNM2BRdo&ab_channel=TM">
+            Project
+          </SmallLink>
         </LinkDiv>
       </ProjectWrapper>
       <ProjectWrapper>
-        \
-        <Project1Img src={project2} alt="" />
         <LinkDiv>
-          <LinkStyle href="https://www.notion.so/Guide-To-Build-A-Full-Stack-Application-48efe4ad9b7a48e0b7a93493cb4a3428">
-            Click to view my guide on how <br /> to build a full-stack
-            application
-          </LinkStyle>
+          <BigLink href="https://www.notion.so/Guide-To-Build-A-Full-Stack-Application-48efe4ad9b7a48e0b7a93493cb4a3428">
+            Click to view my guide "How to Build a Full-stack Application"
+          </BigLink>
+          <SmallLink href="https://www.notion.so/Guide-To-Build-A-Full-Stack-Application-48efe4ad9b7a48e0b7a93493cb4a3428">
+            Article
+          </SmallLink>
         </LinkDiv>
       </ProjectWrapper>
     </Container>
@@ -57,12 +60,20 @@ const Project1Img = styled.img`
   height: 180px;
   width: 135px;
   border-radius: 15px;
+
+  @media (min-width: 700px) {
+    display: none;
+  }
 `;
 
-const LinkStyle = styled.a`
+const BigLink = styled.a`
   text-decoration: none;
   color: #7847e3;
   font-size: 20px;
+  display: flex;
+  @media (max-width: 700px) {
+    display: none;
+  }
 `;
 
 const LinkDiv = styled.div`
@@ -73,5 +84,15 @@ const LinkDiv = styled.div`
   height: 100%;
   width: 100%;
   position: relative;
-  left: 10px;
+`;
+
+const SmallLink = styled.a`
+  text-decoration: none;
+  color: #7847e3;
+  font-size: 20px;
+  display: flex;
+  position: relative;
+  @media (min-width: 700px) {
+    display: none;
+  }
 `;
