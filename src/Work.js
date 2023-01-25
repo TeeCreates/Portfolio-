@@ -52,16 +52,16 @@ const Container = styled.div`
   height: 100vh;
 `;
 
-const Project1Img = styled.img`
-  position: absolute;
-  height: 180px;
-  width: 135px;
-  border-radius: 15px;
+// const Project1Img = styled.img`
+//   position: absolute;
+//   height: 180px;
+//   width: 135px;
+//   border-radius: 15px;
 
-  @media (min-width: 700px) {
-    display: none;
-  }
-`;
+//   @media (min-width: 700px) {
+//     display: none;
+//   }
+// `;
 
 const BigLink = styled.a`
   text-decoration: none;
