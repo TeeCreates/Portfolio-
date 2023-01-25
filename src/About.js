@@ -28,16 +28,16 @@ const Container = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   width: 80%;
   height: 100vh;
   left: 10%;
   /* justify-content: center;
   align-items: center; */
-  top: 190px;
+  /* top: 190px; */
 
   @media (max-width: 700px) {
-    top: 100px;
     display: flex;
   }
 `;
