@@ -43,8 +43,6 @@ height: 100vh;
     border:#7847E3 7px solid ;
     padding: 0px;
 
-overflow-y: scroll;
-
 	
 
 		
