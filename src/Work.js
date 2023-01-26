@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import cv from "./assets/cv.pdf";
 
 export const MyWork = () => {
   return (
@@ -6,7 +7,7 @@ export const MyWork = () => {
       <ProjectWrapper>
         <LinkDiv>
           <BigLink href="https://www.youtube.com/watch?v=JtogNM2BRdo&ab_channel=TM">
-            Click to watch my final project
+            Project
           </BigLink>
           <SmallLink href="https://www.youtube.com/watch?v=JtogNM2BRdo&ab_channel=TM">
             Project
@@ -16,11 +17,18 @@ export const MyWork = () => {
       <ProjectWrapper>
         <LinkDiv>
           <BigLink href="https://www.notion.so/Guide-To-Build-A-Full-Stack-Application-48efe4ad9b7a48e0b7a93493cb4a3428">
-            Click to view my guide "How to Build a Full-stack Application"
+            Article: "How to Build a Full-stack Application"
           </BigLink>
           <SmallLink href="https://www.notion.so/Guide-To-Build-A-Full-Stack-Application-48efe4ad9b7a48e0b7a93493cb4a3428">
             Article
           </SmallLink>
+        </LinkDiv>
+      </ProjectWrapper>
+
+      <ProjectWrapper>
+        <LinkDiv>
+          <BigLink href={cv}>Resume</BigLink>
+          <SmallLink href={cv}>Resume</SmallLink>
         </LinkDiv>
       </ProjectWrapper>
     </Container>
@@ -30,7 +38,7 @@ export const MyWork = () => {
 const ProjectWrapper = styled.div`
   width: 50%;
   background-color: white;
-  height: 200px;
+  height: 130px;
   border-radius: 15px;
   padding: 10px;
   margin-bottom: 55px;
