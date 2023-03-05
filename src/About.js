@@ -1,5 +1,9 @@
 import styled from "styled-components";
-
+import book1 from "./assets/book1.png";
+import css from "./assets/css.png";
+import react from "./assets/react.png";
+import html from "./assets/html.png";
+import mongodb from "./assets/mongodb.png";
 export const About = () => {
   return (
     <Container>
@@ -20,6 +24,17 @@ export const About = () => {
             LinkedIn
           </a>
         </P>
+        <BookSection>
+          Skills:
+          <SkillsIcons src={css} alt="" />
+          <SkillsIcons src={html} alt="" />
+          <SkillsIcons src={react} alt="" />
+          <SkillsIcons src={mongodb} />
+        </BookSection>
+        <BookSection>
+          Book I'm currently reading:
+          <BookImg src={book1} alt="" />
+        </BookSection>
       </div>
     </Container>
   );
@@ -34,8 +49,8 @@ const Container = styled.div`
   height: 100%;
   left: 10%;
   justify-content: center;
-
-  /* top: 190px; */
+  /* 
+  overflow-y: scroll; */
 
   @media (max-width: 700px) {
     margin-top: 20px;
@@ -57,4 +72,21 @@ const AboutMe = styled.h1`
 const P = styled.p`
   font-size: 24px;
   margin-top: 30px;
+`;
+
+const BookImg = styled.img`
+  height: 200px;
+  width: 120px;
+  margin-left: 50px;
+`;
+
+const BookSection = styled.div`
+  font-size: 24px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+`;
+
+const SkillsIcons = styled.img`
+  height: 60px;
 `;

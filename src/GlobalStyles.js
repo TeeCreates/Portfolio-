@@ -37,13 +37,17 @@ body {
 	line-height: 1;
 	box-sizing: border-box;
     background-color:#E6E6FA;
-height: 100vh;
+
+	height: 100%;
     width: 100vw; 
     right:-7px;
-    border:#7847E3 7px solid ;
-    padding: 0px;
 
-	overflow:scroll;
+    border:#7847E3 7px solid ;
+    /* padding: 10px 10px 10px 10px; */
+position: sticky;
+top: 0px;
+	/* overflow-y: hidden; */
+	/* margin-bottom: -50px; */
 
 		
 	

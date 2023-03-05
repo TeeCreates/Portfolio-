@@ -28,16 +28,17 @@ const Img = styled.img`
 `;
 
 const IntroWrapper = styled.div`
-  position: relative;
+  /* position: relative; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 98%;
-  height: 90%;
+  height: 87.5vh;
+
   /* justify-content: center;
   align-items: center; */
-  top: 190px;
+  /* top: 190px; */
 
   @media (max-width: 700px) {
     top: 100px;
