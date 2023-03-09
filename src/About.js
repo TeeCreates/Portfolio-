@@ -73,11 +73,11 @@ const P = styled.p`
   margin-top: 30px;
 `;
 
-const BookImg = styled.img`
-  height: 200px;
-  width: 120px;
-  margin-left: 50px;
-`;
+// const BookImg = styled.img`
+//   height: 200px;
+//   width: 120px;
+//   margin-left: 50px;
+// `;
 
 const BookSection = styled.div`
   font-size: 24px;
