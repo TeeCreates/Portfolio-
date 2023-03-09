@@ -31,10 +31,10 @@ export const About = () => {
           <SkillsIcons src={react} alt="" />
           <SkillsIcons src={mongodb} />
         </BookSection>
-        <BookSection>
+        {/* <BookSection>
           Book I'm currently reading:
           <BookImg src={book1} alt="" />
-        </BookSection>
+        </BookSection> */}
       </div>
     </Container>
   );
