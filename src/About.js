@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import book1 from "./assets/book1.png";
 import css from "./assets/css.png";
 import react from "./assets/react.png";
 import html from "./assets/html.png";
