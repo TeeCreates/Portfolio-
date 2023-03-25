@@ -10,7 +10,7 @@ export const MyWork = () => {
             Quiz Sample
           </BigLink>
           <SmallLink href="https://thajanah-foodquiz.netlify.app/">
-            Project
+            Quiz Sample
           </SmallLink>
         </LinkDiv>
       </ProjectWrapper>
@@ -48,7 +48,7 @@ export const MyWork = () => {
 const ProjectWrapper = styled.div`
   width: 50%;
   background-color: white;
-  height: 100px;
+  height: 120px;
   border-radius: 15px;
   padding: 10px;
   margin-bottom: 55px;
@@ -68,6 +68,9 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   height: 100%;
+  @media (max-width: 700px) {
+    height: 100vh;
+  }
 `;
 
 // const Project1Img = styled.img`
