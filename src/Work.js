@@ -69,7 +69,7 @@ const Container = styled.div`
   align-items: center;
   height: 100%;
   @media (max-width: 700px) {
-    height: 100vh;
+    height: 100%;
   }
 `;
 
