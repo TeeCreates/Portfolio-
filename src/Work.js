@@ -60,6 +60,9 @@ const ProjectWrapper = styled.div`
     transition: all 0.2s ease-in-out;
     transform: scale(1.2);
   }
+  @media (max-width: 700px) {
+    height: 90px;
+  }
 `;
 
 const Container = styled.div`
