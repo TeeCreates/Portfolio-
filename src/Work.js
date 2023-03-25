@@ -48,7 +48,7 @@ export const MyWork = () => {
 const ProjectWrapper = styled.div`
   width: 40%;
   background-color: white;
-  height: 120px;
+  height: 70px;
   border-radius: 15px;
   padding: 10px;
   margin-bottom: 55px;
