@@ -46,7 +46,7 @@ export const MyWork = () => {
 };
 
 const ProjectWrapper = styled.div`
-  width: 30%;
+  width: 40%;
   background-color: white;
   height: 120px;
   border-radius: 15px;
@@ -68,7 +68,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   height: 100%;
-  @media (max-width: 800px) {
+  @media (max-width: 700px) {
     height: 100vh;
   }
 `;
@@ -89,7 +89,7 @@ const BigLink = styled.a`
   color: #7847e3;
   font-size: 20px;
   display: flex;
-  @media (max-width: 800px) {
+  @media (max-width: 700px) {
     display: none;
   }
 `;
@@ -110,7 +110,7 @@ const SmallLink = styled.a`
   font-size: 20px;
   display: flex;
   position: relative;
-  @media (min-width: 800px) {
+  @media (min-width: 700px) {
     display: none;
   }
 `;
