@@ -8,6 +8,7 @@ export const MyWork = () => {
         <LinkDiv>
           <BigLink href="https://thajanah-foodquiz.netlify.app/">
             Quiz Sample
+            <Indevelopment> * In Development *</Indevelopment>
           </BigLink>
           <SmallLink href="https://thajanah-foodquiz.netlify.app/">
             Quiz Sample
@@ -116,4 +117,8 @@ const SmallLink = styled.a`
   @media (min-width: 700px) {
     display: none;
   }
+`;
+
+const Indevelopment = styled.span`
+  font-size: 10px;
 `;
