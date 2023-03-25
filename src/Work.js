@@ -6,6 +6,16 @@ export const MyWork = () => {
     <Container>
       <ProjectWrapper>
         <LinkDiv>
+          <BigLink href="https://thajanah-foodquiz.netlify.app/">
+            Quiz Sample
+          </BigLink>
+          <SmallLink href="https://thajanah-foodquiz.netlify.app/">
+            Project
+          </SmallLink>
+        </LinkDiv>
+      </ProjectWrapper>
+      <ProjectWrapper>
+        <LinkDiv>
           <BigLink href="https://www.youtube.com/watch?v=JtogNM2BRdo&ab_channel=TM">
             Project
           </BigLink>
@@ -38,7 +48,7 @@ export const MyWork = () => {
 const ProjectWrapper = styled.div`
   width: 50%;
   background-color: white;
-  height: 130px;
+  height: 100px;
   border-radius: 15px;
   padding: 10px;
   margin-bottom: 55px;
@@ -57,7 +67,7 @@ const Container = styled.div`
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 `;
 
 // const Project1Img = styled.img`
